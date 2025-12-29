@@ -33,7 +33,7 @@ A real-time computer vision application utilizing **MediaPipe** and **OpenCV** t
    pip install -r requirements.txt
    ```
 
-## ▶ How to Run
+##  How to Run
 
 Navigate to the project root directory and execute the main script:
 
