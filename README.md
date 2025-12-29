@@ -2,7 +2,7 @@
 
 A real-time computer vision application utilizing **MediaPipe** and **OpenCV** to perform simultaneous Face Mesh, Hand Tracking, and Pose Estimation. This project demonstrates the capability of modern AI models to track human landmarks efficiently on a standard CPU.
 
-## 🚀 Features
+##  Features
 
 - **Real-time Face Mesh**: Detects 468 face landmarks with refinement for irises.
 - **Hand Tracking**: Tracks 21 3D landmarks per hand (multi-hand support).
@@ -10,7 +10,7 @@ A real-time computer vision application utilizing **MediaPipe** and **OpenCV** t
 - **FPS Display**: Monitors real-time performance.
 - **Clean Visualization**: High-quality drawing utilities for all landmarks.
 
-## 💡 Use Cases
+##  Use Cases
 
 - **Gesture Control**: Create touchless interfaces for computers or IoT devices.
 - **Fitness & Sports Analysis**: Analyze posture and movement form in real-time.
@@ -18,14 +18,14 @@ A real-time computer vision application utilizing **MediaPipe** and **OpenCV** t
 - **Sign Language Recognition**: Build systems to interpret hand signs.
 - **Driver Monitoring**: Detect fatigue or distraction based on head pose and eye state.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **OpenCV**: For video capture and image processing.
 - **MediaPipe**: Google's open-source framework for cross-platform ML solutions.
 - **NumPy**: For numerical operations.
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository** (if applicable) or download the source code.
 2. **Install dependencies**:
@@ -33,7 +33,7 @@ A real-time computer vision application utilizing **MediaPipe** and **OpenCV** t
    pip install -r requirements.txt
    ```
 
-## ▶️ How to Run
+## ▶ How to Run
 
 Navigate to the project root directory and execute the main script:
 
@@ -43,17 +43,18 @@ python src/main.py
 
 - **Press 'q'** to exit the application.
 
-## 📷 Demo
+##  Demo
 
-> *Watch the full demo videos in the `assets/` folder.*
+> *Below are GIF previews of the application in action.*
 
-![Project Screenshot](assets/demo_screenshot.png)
-
-### Face & Hand Tracking
-[Click here to watch Demo 1](assets/demo_1.mp4)
+### Hand Tracking
+![Hand Tracking Demo](assets/demo_1.gif)
 
 ### Pose Estimation
-[Click here to watch Demo 2](assets/demo_2.mp4)
+![Pose Estimation Demo](assets/demo_2.gif)
+
+### Face Tracking
+![Face Tracking Demo](assets/demo_screenshot.png)
 
 Upon running the application, your default webcam will open. You should see:
 - A mesh overlay on your face.
@@ -63,7 +64,7 @@ Upon running the application, your default webcam will open. You should see:
 
 The application is optimized to run smoothly on most modern laptops without requiring a dedicated GPU.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AI Face Gesture Detection/
@@ -76,10 +77,10 @@ AI Face Gesture Detection/
 └── README.md            # Project documentation
 ```
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
-Feel free to fork this project and submit pull requests. You can extend this by adding gesture recognition, posture correction analysis, or integrating with other applications.
-
+Feel free to fork this project and submit pull requests. You can extend this by adding gesture recognition, posture correction analysis, or integrating with other applications. -->
+<!-- 
 ## 📄 License
 
-This project is open-source and available for educational purposes.
+This project is open-source and available for educational purposes. -->
